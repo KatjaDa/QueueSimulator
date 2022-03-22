@@ -1,0 +1,158 @@
+	
+	/*
+	 * Root layout and label styles
+	 */
+	.root {
+	-fx-background-color: #363537;
+	-fx-text-fill: white;
+	-fx-font-size: 14.0px;
+	}
+
+	.label {
+	-fx-text-fill: white;
+	-fx-font-size: 14.0px;
+	-fx-font-family: Calibri;
+	} 
+	
+	/*
+	.textfield {
+	-fx-font-size: 14.0px;
+	}
+	*/
+	
+	/*
+	 * Styling for buttons
+	 */
+    .button {
+    	-fx-background-color: #379634;
+    	-fx-font-size: 15.0px;
+		-fx-font-family: Calibri;
+    }
+    
+    #infoButton {
+    	-fx-background-radius: 5.0em;
+    	-fx-min-width: 30.0px;
+    	-fx-min-height: 30.0px;
+		-fx-max-width: 30.0px;
+		-fx-max-height: 30.0px;
+		-fx-font-size: 16.0px;
+		-fx-font-family: Calibri;
+    }
+    
+    #turkoosiButton {
+    	-fx-background-radius: 5.0em;
+    	-fx-min-width: 20.0px;
+    	-fx-min-height: 20.0px;
+    	-fx-max-width: 20.0px;
+    	-fx-max-height: 20.0px;
+    	-fx-background-color: rgb(3.0, 244.0, 252.0);
+    }
+    
+    #punainenButton {
+    	-fx-background-radius: 5.0em;
+    	-fx-min-width: 20.0px;
+    	-fx-min-height: 20.0px;
+		-fx-max-width: 20.0px;
+		-fx-max-height: 20.0px;
+		-fx-background-color: rgb(253.0, 0.0, 0.0);
+    }
+    
+    /*
+     * Styles for info button / alert box on SimulaattorinGUI
+     */
+    
+     .dialog-pane {
+     	 -fx-border-color:black;
+     	 -fx-border-width:2.0px; 
+     	 -fx-background-color: #363537;
+    	-fx-text-fill: white;
+    	-fx-font-size: 12.0px;
+		-fx-font-family: Calibri;
+     	 }
+     	 
+    .alert {
+    	-fx-background-color: #363537;
+    	-fx-text-fill: white;
+		-fx-font-family: Calibri;
+    }
+    
+    .alert .label {
+    	-fx-font-size: 14.0px;
+		-fx-font-family: Calibri;
+    }
+    
+/*
+ * Progress bar styles
+ */
+
+	.progress-bar .bar {
+		-fx-padding:5.0px;
+		-fx-background-insets: 0.0, 1.0, 2.0;
+		-fx-accent: #379634;
+	} 
+
+	.progress-bar > .track {
+		-fx-text-box-border: white;
+		-fx-control-inner-background: palegreen;
+	}
+
+/* 
+ * Start of table view and header styling
+ */
+ 
+     #tietokantaraporttiHeader {
+     	-fx-font-size: 32.0px;
+     	-fx-font-family: Calibri;
+     	-fx-fill: #818181;
+     	-fx-effect: innershadow( three-pass-box , #379634 , 6.0, 0.0 , 0.0 , 2.0 );
+     	-fx-text-weight: bold;
+     	}
+
+	.table {
+		-fx-font-size: 14.0px;
+		-fx-font-family: Calibri;
+	} 
+
+
+	.table-view .column-header-background {
+    -fx-background-color: black;
+	}
+
+	.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14.0px;
+    -fx-font-weight: normal;
+	-fx-font-family: Calibri;
+	}
+
+	.table-view .column-header {
+    -fx-background-color: transparent;
+	}
+
+	.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 14.0px;
+	}
+
+		.table-row-cell {
+    -fx-background-color:-fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+	.table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+    -fx-padding: 0.0em; /* 0 */  
+	}
+	
+	.table-view .filler {
+		-fx-background-color: black;
+	}
+
+
+
+
+    
+        
