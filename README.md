@@ -26,3 +26,5 @@ For this project you will need to download several packages. This set up guide i
 	2. When you run project first time, it will create tables needed.   If you don’t wish drop and create your database again,   
 	Change create to validate here:   
 	<property name="hbm2ddl.auto">create</property>
+## Creators   
+This was done as a collaborative project with h-la & IinaLaa, gitrepo: https://github.com/teamOliot/JonoSimulaattori   
